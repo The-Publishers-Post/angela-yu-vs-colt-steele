@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@500;400&display=swap');
+
+* {
+  
+    padding: 0;
+    border: 0;
+}
+
+.secondary-top-bar {
+
+    display: flex;
+    user-select: none;
+}
+
+.header-divide {
+
+    border-bottom: 1px solid #004033;
+}
+
+.hover-btn {
+  
+    height: -webkit-fill-available;
+    padding: 8px 18.7px;
+    letter-spacing: 1px;
+    color: #004033;
+    width: min-content;
+    background-color: #F7C3BA;
+    font-weight: 500;
+    font-family: "Nanum Myeongjo", serif;
+
+    transition: all 0.3s ease;
+} 
+
+.hover-btn:hover {
+
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.hover-menu {
+  
+    text-align: center;
+    min-width: -webkit-fill-available;
+    padding-top: 5px;
+    opacity: 0;
+    list-style-type: none;
+    text-align: centre;
+    /* z-index: -1; */
+    overflow: visible;
+    background-color: #F7C3BA;
+
+    transition: all 0.3s ease-in;
+}
+
+.menu-container:hover > .hover-menu {
+
+    z-index: +1;
+    opacity: 100;
+}
+
+.hover-menu li {
+
+    padding: 7px 4px;
+    font-weight: 400;
+    font-family: "Nanum Myeongjo", serif;
+}
+
+.hover-menu li:hover {
+
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.menu-container {
+  
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
