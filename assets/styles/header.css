@@ -9,8 +9,6 @@
 .header {
 
     background-color: #E5E5E5;
-    min-height: 100vh;
-
     user-select: none;
 }
 
@@ -104,9 +102,4 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.secondary-top-bar {
-
-    min-height: 100px;   
 }
