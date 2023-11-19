@@ -66,11 +66,17 @@
     opacity: 100;
 }
 
-.hover-menu li {
+.hover-menu li a, .hover-menu li {
 
+    color: black;
     padding: 7px 4px;
     font-weight: 400;
     font-family: "Nanum Myeongjo", serif;
+}
+
+.hover-menu li a:visited {
+
+    color: black;
 }
 
 .hover-menu li:hover {
