@@ -1,0 +1,14 @@
+
+footer {
+
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #2833453b;
+
+    color: #636363;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
