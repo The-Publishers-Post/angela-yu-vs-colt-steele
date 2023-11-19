@@ -9,13 +9,28 @@ strong {
     font-size: 1.2rem;
 }
 
+.dot-divide {
+
+    border: 1px #636363 dotted;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 50%;
+    border-spacing: 20px;
+}
+
 .body {
 
     padding-top: 60px;
     padding-left: 50px;
-    /* height: 50vh; */
-    width: 100vw;
     background-color: #e5e5e595;
+}
+
+.credits-text {
+
+    opacity: 70%;
+    color: black;
+    font-size: 0.8rem;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 .inline-flex {
